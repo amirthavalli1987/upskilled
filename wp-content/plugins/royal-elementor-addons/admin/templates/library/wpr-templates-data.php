@@ -55,6 +55,48 @@ class WPR_Templates_Data {
 					'priority' => 50,
 				],
 			],
+			'coming-soon-pack' => [
+				'v1' => [
+					'name' => 'Coming Soon Pack',
+					'pages' => 'home,coming-soon-v2,coming-soon-v3,coming-soon-v4,coming-soon-v5,',
+					'plugins' => '{}',
+					'tags' => 'coming soon page launch maintenance mode countdown underconstruciton under construction comingsoon landingpage landing page',
+					'theme-builder' => false,
+					'woo-builder' => false,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 150,
+				],
+			],
+			'music-band' => [
+				'v1' => [
+					'name' => 'Music Band',
+					'pages' => 'home,bio,shop,single-product,news,events,contact,',
+					'plugins' => '{"woocommerce":'. $is_woo_active .'}',
+					'tags' => 'music band music-industry dj events tickets festival merchandise sound entertainment nightlife disco party club artist audio musician shop soundcloud instrument',
+					'theme-builder' => true,
+					'woo-builder' => true,
+					'off-canvas' => false,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 151,
+				],
+			],
+			'dental' => [
+				'v1' => [
+					'name' => 'Dental Clinic',
+					'pages' => 'home,about,services,reviews,contact,',
+					'plugins' => '{}',
+					'tags' => 'dental clinic dental-care dentistry orthodontics tooth therapy free medical clinic dental health healthcare doctor therapist wellness treatment cure',
+					'theme-builder' => true,
+					'woo-builder' => false,
+					'off-canvas' => true,
+					'price' => $is_pro_active ? 'free' : 'free',
+					'label' => 'new',
+					'priority' => 152,
+				],
+			],
 			'landing-page-startup' => [
 				'v1' => [
 					'name' => 'Landing Page - Startup',
